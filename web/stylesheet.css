@@ -1,0 +1,86 @@
+body, h1, p, form, table, td, tr, strong, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: White;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 60%;
+    margin: 20;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 550px;
+    padding: 50px 30px 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    height: auto;
+    position: relative;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #1877f2;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 4px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#complete-table {
+    width: 100%;
+}
+
+#auto-row {
+    
+    max-height: 90px; 
+    overflow-y: auto; 
+    position: absolute;
+    bottom: 100px; 
+    width: calc(100% - 60px); 
+    border: 2px solid black;
+    background-color: white; 
+    border-radius: 10px;
+}
+
+.popupCell {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+   
+   
+}
+.popupCell:last-child {
+    border-bottom: none;
+}
+
+.popupCell:hover {
+    background-color: #f0f2f5;
+}
+
